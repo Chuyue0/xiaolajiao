@@ -1,0 +1,481 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>小辣椒官方商城</title>
+<link rel="stylesheet" type="text/css" href="css/conn.css"/>
+<link rel="stylesheet" type="text/css" href="css/list.css"/>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/list.js"></script>
+<link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+	<div class="site-nav">
+    	<div class="site-nav-in">
+        	<ul class="site-nav-in-l">
+            	<li><a href="#">小辣椒官网</a></li>
+                <li><a href="#">新闻中心</a></li>
+                <li><a href="#">服务中心</a></li>
+                <li><a href="#" class="noline">商城手机版</a></li>
+            </ul>
+            <ul class="site-nav-in-r">
+            	<li><a href="#">登录</a></li>
+                <li><a href="#" class="noline">注册</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="header">
+    	<div class="logo">
+        	<h1><a href="#" title="小辣椒官方商城--带给你不一样的体验">小辣椒手机</a></h1>
+        </div>
+        <div class="search">
+        	<div class="search-left">
+            	<div class="search-left-t">
+                	<input type="text" class="search-input" />
+                    <div class="search-text">
+                    	<a href="#">红辣椒X1</a>|
+                        <a href="#">红辣椒XM</a>
+                    </div>
+                </div>
+                <div class="search-left-s">
+                	<s></s>
+                </div>
+            </div>
+            <div class="search-right">
+            	<a href="#" class="search-right-in">
+                	<b class="car"></b>
+                    购物车
+                </a>
+                <div id="carshoplist">
+                    <h4>您的购物车中还没有商品，赶紧去选购吧！</h4>
+                    <s></s>                        
+                    <i></i>                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="nav">
+    	<div class="nav-left"  onmouseover="show()" onmouseout="hidd()">
+        	<span></span>
+        	<h4 >全部商品分类</h4>
+            <div id="nav-left-select">
+            <dl>
+            	<dt><a href="#">红辣椒手机</a></dt>
+                <dd><a href="#">红辣椒醉视</a></dd>
+                <dd><a href="#">红辣椒NX-Plus</a></dd>
+            </dl>
+          	<dl>
+            	<dt><a href="#">小辣椒手机</a></dt>
+                <dd><a href="#">小辣椒X5</a></dd>
+                <dd><a href="#">小辣椒S1</a></dd>
+                <dd><a href="#">小辣椒X4</a></dd>
+            </dl>
+          	<dl>
+            	<dt><a href="#">生活周边</a></dt>
+                <dd><a href="#">小清新空气净化器</a></dd>
+            </dl>
+          	<dl>
+            	<dt><a href="#">专用配件</a></dt>
+                <dd><a href="#">贴膜</a></dd>
+                <dd><a href="#">保护盒</a></dd>
+                <dd><a href="#">保护套</a></dd>
+                <dd><a href="#">后盖</a></dd>
+                <dd><a href="#">电池</a></dd>
+            </dl>
+          	<dl>
+            	<dt><a href="#">通用配件</a></dt>
+                <dd><a href="#">耳机</a></dd>
+                <dd><a href="#">移动电源</a></dd>
+                <dd><a href="#">数据线</a></dd>
+                <dd><a href="#">充电头</a></dd>
+            </dl>
+          	<dl class="last">
+            	<dt><a href="#">通话产品</a></dt>
+                <dd><a href="#">辣椒</a></dd>
+            </dl>
+            </div>
+        </div>
+        <div class="nav-right">
+        	<ul>
+            	<li><a href="index.html">首页</a></li>
+                <li id="nrl">
+                	<a href="#">小辣椒手机</a>
+                    <span class="new">新品
+                    	<i></i>
+                    </span>
+                    <span id="nav-right-list">
+                    	<ul>
+                        	<li>
+                            	<a href="#"><img src="images/nav-list-product_r1_c1.jpg" width="110" height="210" /></a>
+                                <p class="nav-right-li-title">小辣椒X5</p>
+                                <p class="nav-right-li-desc">双面2.5D曲面屏</p>
+                                <p class="nav-right-li-price">1699元</p>
+                            </li>
+                            <li class="last">
+                            	<a href="#"><img src="images/nav-list-product_r1_c3.jpg" width="110" height="210" /></a>
+                                <p class="nav-right-li-title">小辣椒S1</p>
+                                <p class="nav-right-li-desc">2.5D 64位真芯 16G</p>
+                                <p class="nav-right-li-price">799元</p>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+                <li>
+                	<a href="#">红辣椒手机</a>
+                    <span class="new">新品
+                    	<i></i>
+                    </span>
+                </li>
+                <li><a href="#">辣聊</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">社区</a></li>
+                <li><a href="#">积分商城</a></li>
+                <li><a href="#">特惠专区</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="list-pro">
+    	<h3>商品列表</h3>
+        <hr />
+        <p class="shangpin">
+        	商品分类：
+            <a href="#" class="all">全部</a>
+            <a href="#">皮套</a>
+            <em></em>
+            <a href="#">电池</a>
+            <em></em>
+            <a href="#">贴膜</a>
+            <em></em>
+            <a href="#">保护壳</a>
+            <em></em>
+            <a href="#">耳机</a>
+            <em></em>
+            <a href="#">座充</a>
+            <em></em>
+            <a href="#">储存卡</a>
+            <em></em>
+            <a href="#">后盖</a>
+            <em></em>
+            <a href="#">充电头</a>
+            <em></em>
+            <a href="#">数据线</a>
+            <em></em>
+            <a href="#">支架</a>
+            <em></em>
+            <a href="#">自拍杆</a>
+            <em></em>
+            <a href="#">移动电源</a>
+        </p>
+        <p class="jixing">
+        	适配机型：
+            <a href="#" class="all red">全部</a>
+            <a href="#">L2-F青春版</a>
+            <em></em>
+            <a href="#">LA-M2</a>
+            <em></em>
+            <a href="#">LA1-L</a>
+            <em></em>
+            <a href="#">LA3-L</a>
+            <em></em>
+            <a href="#">LA3电信版</a>
+            <em></em>
+            <a href="#">LA4-L</a>
+            <em></em>
+            <a href="#">LA4-S</a>
+            <em></em>
+            <a href="#">LA6</a>
+            <em></em>
+            <a href="#">LA7-L</a>
+            <em></em>
+            <a href="#">LA9-L</a>
+            <em></em>
+            <a href="#">m1y</a>
+        </p>
+    </div>
+    
+    <div class="main">
+    	<div class="main-top">
+        	<div class="main-top-left">
+                排序方式：
+                <a href="#">按产品名称</a>
+                <em></em>
+                <a href="#">按价格高低</a>
+                <em></em>
+                <a href="#" class="red">按上架时间</a>
+            </div>
+            <div class="main-top-right">
+            	<input type="checkbox" />
+                <p>显示特惠商品</p>
+            </div>
+        </div>
+        <div class="main-bottom">
+        	<ul>
+            	<li>
+                	<div class="main-bottom-hov">
+                    	<a href="#"><img src="images/shangpin1_r1_c1.png" width="90" height="180" /></a>
+                        <span class="shangping-title">小辣椒<X5/span>
+                        <span class="shangping-price">￥1699.00 元</span>
+                        <a href="#" class="shangping-buy">
+                        	<i>+</i>
+                            加入购物车
+                        </a>
+                    </div>
+              	</li>
+                <li>
+                	<div class="main-bottom-hov">
+                    	<a href="#"><img src="images/shangpin1_r1_c3.png" width="90" height="180" /></a>
+                        <span class="shangping-title">小辣椒S1<X5/span>
+                        <span class="shangping-price">￥799.00 元</span>
+                        <a href="#" class="shangping-buy">
+                        	<i>+</i>
+                            加入购物车
+                        </a>
+                  	</div>
+              	</li>
+                <li>
+                	<div class="main-bottom-hov">
+                    	<a href="#"><img src="images/shangpin1_r1_c7.png" width="90" height="180" /></a>
+                        <span class="shangping-title">小辣椒X4<X5/span>
+                        <span class="shangping-price">￥1499.00 元</span>
+                        <a href="#" class="shangping-buy">
+                        	<i>+</i>
+                            加入购物车
+                        </a>
+                  	</div>
+                </li>
+                	<li class="last">
+                	<div class="main-bottom-hov">
+                    	<a href="#"><img src="images/shangpin1_r1_c9.png" width="90" height="180" /></a>
+                        <span class="shangping-title">小辣椒9<X5/span>
+                        <span class="shangping-price">￥1499.00 元</span>
+                        <a href="#" class="shangping-buy">
+                        	<i>+</i>
+                            加入购物车
+                        </a>
+                  	</div>
+                </li>
+                <li>
+                	<div class="main-bottom-hov">
+                    	<a href="#"><img src="images/shangpin1_r1_c9.png" width="90" height="180" /></a>
+                        <span class="shangping-title">小辣椒M1Y<X5/span>
+                        <span class="shangping-price">￥449.00 元</span>
+                        <a href="#" class="shangping-buy">
+                        	<i>+</i>
+                            加入购物车
+                        </a>
+                  	</div>
+                </li>
+                <li>
+                	<div class="main-bottom-hov">
+                    	<a href="#"><img src="images/shangpin2_r1_c1.png" width="90" height="180" /></a>
+                        <span class="shangping-title">小辣椒4G青春版<X5/span>
+                        <span class="shangping-price">促销价：￥499.00 元<s>￥599.00元</s></span>
+                        <a href="#" class="shangping-buy">
+                        	<i>+</i>
+                            加入购物车
+                        </a>
+                        <span class="tejia">特价</span>
+               	  </div>
+              </li>
+                <li>
+                	<div class="main-bottom-hov">
+                    	<a href="#"><img src="images/shangpin2_r1_c7.png" width="90" height="180" /></a>
+                        <span class="shangping-title">小辣椒7<X5/span>
+                        <span class="shangping-price">促销价：￥1999.00 元<s>￥2199.00元</s></span>
+                        <a href="#" class="shangping-buy">
+                        	<i>+</i>
+                            加入购物车
+                        </a>
+                        <span class="tejia">特价</span>
+               	  </div>
+              </li>
+                <li class="last">
+                	<div class="main-bottom-hov">
+                    	<a href="#"><img src="images/shangpin2_r1_c9.png" width="90" height="180" /></a>
+                        <span class="shangping-title">小辣椒X3<X5/span>
+                        <span class="shangping-price">￥999.00 元</span>
+                        <a href="#" class="shangping-buy">
+                        	<i>+</i>
+                            加入购物车
+                        </a>
+               	  </div>
+              </li>
+                <li>
+                	<div class="main-bottom-hov">
+                    	<a href="#"><img src="images/shangping3_r1_c1.png" width="90" height="180" /></a>
+                        <span class="shangping-title">小辣椒4全网通<X5/span>
+                        <span class="shangping-price">￥1999.00 元</span>
+                        <a href="#" class="shangping-buy">
+                        	<i>+</i>
+                            加入购物车
+                        </a>
+               	  </div>
+              </li>
+                <li>
+                	<div class="main-bottom-hov">
+                    	<a href="#"><img src="images/shangping3_r1_c11.png" width="90" height="180" /></a>
+                        <span class="shangping-title">小辣椒3电信版<X5/span>
+                        <span class="shangping-price">促销价：￥599.00 元<s>￥699.00元</s></span>
+                        <a href="#" class="shangping-buy">
+                        	<i>+</i>
+                            加入购物车
+                        </a>
+                        <span class="tejia">特价</span>
+               	  </div>
+                </li>
+                <li>
+                	<div class="main-bottom-hov">
+                    	<a href="#"><img src="images/shangping3_r2_c21.png" width="90" height="180" /></a>
+                        <span class="shangping-title">小辣椒4<X5/span>
+                        <span class="shangping-price">￥1399.00 元</span>
+                        <a href="#" class="shangping-buy">
+                        	<i>+</i>
+                            到货通知
+                        </a>
+               	  </div>
+              </li>
+                <li class="last">
+                	<div class="main-bottom-hov">
+                    	<a href="#"><img src="images/shangping3_r2_c23.png" width="90" height="180" /></a>
+                        <span class="shangping-title">小辣椒4G Mini<X5/span>
+                        <span class="shangping-price">￥999.00 元</span>
+                        <a href="#" class="shangping-buy">
+                        	<i>+</i>
+                            加入购物车
+                        </a>
+               	  </div>
+              </li>
+            </ul>
+        </div>
+        <div class="main-page">
+        	<div class="main-page-in">
+            	<a href="#" class="no"><</a>
+                <a href="" id="page-current">1</a>
+                <a href="">2</a>
+                <a href="#" class="no">></a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="footer">
+    	<div class="service">
+        	<ul>
+            	<li>
+                	<a href="#">
+                    	<span class="service-one"></span>
+                        <strong><label>7天</label>退货保障</strong>
+                    </a>
+                </li>
+                <li>
+                	<a href="#">
+                    	<span class="service-two"></span>
+                        <strong><label>15天</label>换货承诺</strong>
+                    </a>
+                </li>
+                <li>
+                	<a href="#">
+                    	<span class="service-three"></span>
+                        <strong><label>49元起</label> 全场免邮费 </strong>
+                    </a>
+                </li>
+                <li class="noser">
+                	<a href="#">
+                    	<span class="service-four"></span>
+                        <strong><label>200余家</label>售后服务网点</strong>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="links">
+        	<dl class="links-nomar">
+            	<dt>帮助中心</dt>
+                <dd><a href="#">支付方式</a></dd>
+                <dd><a href="#">配送方式</a></dd>
+                <dd><a href="#">购物指南</a></dd>
+            </dl>
+            <dl>
+            	<dt>服务支持 </dt>
+                <dd><a href="#">相关下载</a></dd>
+                <dd><a href="#">售后政策</a></dd>
+                <dd><a href="#">物流查询</a></dd>
+            </dl>
+            <dl>
+            	<dt>小辣椒基地</dt>
+                <dd><a href="#">服务网点</a></dd>
+                <dd><a href="#">品牌授权商</a></dd>
+                <dd><a href="#">线下合作零售店</a></dd>
+            </dl>
+            <dl>
+            	<dt>关于小辣椒</dt>
+                <dd><a href="#">加入我们</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+                <dd><a href="#">了解小辣椒</a></dd>
+            </dl>
+            <dl>
+            	<dt>关注我们</dt>
+                <dd><a href="#"><span class="sina"></span>新浪微博</a></dd>
+                <dd><a href="#"><span class="weibo"></span>腾讯微博</a></dd>
+                <dd><a href="#"><span class="shequ"></span>官方社区</a></dd>
+            </dl>
+          <div class="links-contact">
+           	<h4>400-166-5678</h4>
+            <p>仅收市话费，周一至周日9:00-21:00 </p>
+            <a href="#" class="kefu">
+                <span></span>在线客服
+               </a>
+          </div>
+        </div>
+        <div class="infor">
+        	旗下网站：
+          <a href="#">小辣椒天猫店</a>
+          <em></em>
+          <a href="#">小辣椒电信店</a>
+            <em></em>
+            <a href="#">小辣椒京东店</a>
+            <em></em>
+            <a href="#">小辣椒苏宁店</a>
+            <em></em>
+            <br />
+            友情链接：
+            <a href="#">新闻资讯</a>
+            <em></em>
+            <a href="#">小辣椒配件</a>
+            <em></em>
+            <a href="#">中国电信</a>
+            <em></em>
+            <a href="#">红辣椒</a>
+            <em></em>
+            <a href="#">乐蛙OS</a>
+            <em></em>
+            <a href="#">手机中国</a>
+            <em></em>
+            <a href="#">网络电话</a>
+            <em></em>
+            <a href="#">性价比手机</a>
+            <em></em>
+            <a href="#">赚网</a>
+            <em></em>
+            <a href="#">琵琶网手游下载</a>
+            <em></em>
+            <a href="#">安卓市场</a>
+            <em></em>
+            <a href="#">手机之家应用</a>
+            <em></em>
+            <br />
+            &copy;<a href="#">小辣椒手机官网</a>粤ICP证B2-20130549号 粤ICP备12053227号-3号
+       	  <p>版权所有：深圳小辣椒科技有限责任公司 </p>
+        	<img src="images/links.png" width="186" height="38" /> 
+        </div>
+        <div class="safe">
+   	    	<a href="#"><img src="images/safe1.png" width="127" height="47" /></a> 
+        	<a href="#"><img src="images/safe2.png" width="119" height="42" /></a> 
+        	<a href="#"><img src="images/safe3.png" width="101" height="42" /></a> 
+        </div>
+    </div>
+</body>
+</html>
